@@ -51,7 +51,7 @@ type Config struct {
 
 // Listen holds for http and https related config
 type Listen struct {
-	Graceful          bool // Graceful means use graceful module to start the server
+	Graceful2         bool // Graceful2 means use graceful2 module to start the server
 	ServerTimeOut     int64
 	ListenTCP4        bool
 	EnableHTTP        bool
@@ -221,7 +221,7 @@ func newBConfig() *Config {
 		EnableErrorsShow:    true,
 		EnableErrorsRender:  true,
 		Listen: Listen{
-			Graceful:      false,
+			Graceful2:     false,
 			ServerTimeOut: 0,
 			ListenTCP4:    false,
 			EnableHTTP:    true,

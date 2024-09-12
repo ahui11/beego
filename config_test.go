@@ -68,7 +68,7 @@ func TestAssignConfig_02(t *testing.T) {
 		}
 	}
 	configMap["MaxMemory"] = 1024
-	configMap["Graceful"] = true
+	configMap["Graceful2"] = true
 	configMap["XSRFExpire"] = 32
 	configMap["SessionProviderConfig"] = "file"
 	configMap["FileLineNum"] = true
@@ -86,8 +86,8 @@ func TestAssignConfig_02(t *testing.T) {
 		t.FailNow()
 	}
 
-	if !_BConfig.Listen.Graceful {
-		t.Log(_BConfig.Listen.Graceful)
+	if !_BConfig.Listen.Graceful2 {
+		t.Log(_BConfig.Listen.Graceful2)
 		t.FailNow()
 	}
 

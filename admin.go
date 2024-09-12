@@ -448,7 +448,7 @@ func (admin *adminApp) Run() {
 	logs.Info("Admin server Running on %s", addr)
 
 	var err error
-	if BConfig.Listen.Graceful {
+	if BConfig.Listen.Graceful2 {
 		err = grace.ListenAndServe(addr, nil)
 	} else {
 		err = http.ListenAndServe(addr, nil)

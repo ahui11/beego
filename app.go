@@ -112,8 +112,8 @@ func (app *App) Run(mws ...MiddleWare) {
 	app.Server.WriteTimeout = time.Duration(BConfig.Listen.ServerTimeOut) * time.Second
 	app.Server.ErrorLog = logs.GetLogger("HTTP")
 
-	// run graceful mode
-	if BConfig.Listen.Graceful {
+	// run graceful2 mode
+	if BConfig.Listen.Graceful2 {
 		httpsAddr := BConfig.Listen.HTTPSAddr
 		app.Server.Addr = httpsAddr
 		if BConfig.Listen.EnableHTTPS || BConfig.Listen.EnableMutualHTTPS {

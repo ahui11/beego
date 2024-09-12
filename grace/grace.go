@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // Package grace use to hot reload
-// Description: http://grisha.org/blog/2014/06/03/graceful-restart-in-golang/
+// Description: http://grisha.org/blog/2014/06/03/graceful2-restart-in-golang/
 //
 // Usage:
 //
@@ -92,7 +92,7 @@ var (
 )
 
 func init() {
-	flag.BoolVar(&isChild, "graceful", false, "listen on open fd (after forking)")
+	flag.BoolVar(&isChild, "graceful2", false, "listen on open fd (after forking)")
 	flag.StringVar(&socketOrder, "socketorder", "", "previous initialization order - used when more than one listener was started")
 
 	regLock = &sync.Mutex{}

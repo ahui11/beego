@@ -52,7 +52,7 @@ func oldMap() M {
 	m["BConfig.EnableGzip"] = BConfig.EnableGzip
 	m["BConfig.MaxMemory"] = BConfig.MaxMemory
 	m["BConfig.EnableErrorsShow"] = BConfig.EnableErrorsShow
-	m["BConfig.Listen.Graceful"] = BConfig.Listen.Graceful
+	m["BConfig.Listen.Graceful2"] = BConfig.Listen.Graceful2
 	m["BConfig.Listen.ServerTimeOut"] = BConfig.Listen.ServerTimeOut
 	m["BConfig.Listen.ListenTCP4"] = BConfig.Listen.ListenTCP4
 	m["BConfig.Listen.EnableHTTP"] = BConfig.Listen.EnableHTTP

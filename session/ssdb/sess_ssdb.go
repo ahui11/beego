@@ -9,7 +9,7 @@ import (
 
 	"github.com/ssdb/gossdb/ssdb"
 
-	"github.com/beego/beego/session"
+	"github.com/ahui11/beego/session"
 )
 
 var ssdbProvider = &Provider{}

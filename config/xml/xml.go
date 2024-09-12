@@ -21,8 +21,8 @@
 // Usage:
 //
 //	import(
-//	  _ "github.com/beego/beego/config/xml"
-//	    "github.com/beego/beego/config"
+//	  _ "github.com/ahui11/beego/config/xml"
+//	    "github.com/ahui11/beego/config"
 //	)
 //
 //	cnf, err := config.NewConfig("xml", "config.xml")
@@ -40,7 +40,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/beego/beego/config"
+	"github.com/ahui11/beego/config"
 	"github.com/beego/x2j"
 )
 

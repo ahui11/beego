@@ -37,8 +37,8 @@
 // Usage:
 // import(
 //
-//	_ "github.com/beego/beego/session/postgresql"
-//	"github.com/beego/beego/session"
+//	_ "github.com/ahui11/beego/session/postgresql"
+//	"github.com/ahui11/beego/session"
 //
 // )
 //
@@ -56,7 +56,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/beego/beego/session"
+	"github.com/ahui11/beego/session"
 	// import postgresql Driver
 	_ "github.com/lib/pq"
 )

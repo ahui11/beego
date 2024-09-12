@@ -21,8 +21,8 @@
 // Usage:
 // import(
 //
-//	_ "github.com/beego/beego/cache/memcache"
-//	"github.com/beego/beego/cache"
+//	_ "github.com/ahui11/beego/cache/memcache"
+//	"github.com/ahui11/beego/cache"
 //
 // )
 //
@@ -37,7 +37,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/beego/beego/cache"
+	"github.com/ahui11/beego/cache"
 	"github.com/bradfitz/gomemcache/memcache"
 )
 

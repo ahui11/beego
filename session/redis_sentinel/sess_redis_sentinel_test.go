@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/beego/beego/session"
+	"github.com/ahui11/beego/session"
 )
 
 func TestRedisSentinel(t *testing.T) {

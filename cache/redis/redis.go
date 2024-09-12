@@ -21,8 +21,8 @@
 // Usage:
 // import(
 //
-//	_ "github.com/beego/beego/cache/redis"
-//	"github.com/beego/beego/cache"
+//	_ "github.com/ahui11/beego/cache/redis"
+//	"github.com/ahui11/beego/cache"
 //
 // )
 //
@@ -42,7 +42,7 @@ import (
 
 	"strings"
 
-	"github.com/beego/beego/cache"
+	"github.com/ahui11/beego/cache"
 )
 
 var (

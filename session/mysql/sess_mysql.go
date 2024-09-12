@@ -30,8 +30,8 @@
 // Usage:
 // import(
 //
-//	_ "github.com/beego/beego/session/mysql"
-//	"github.com/beego/beego/session"
+//	_ "github.com/ahui11/beego/session/mysql"
+//	"github.com/ahui11/beego/session"
 //
 // )
 //
@@ -49,7 +49,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/beego/beego/session"
+	"github.com/ahui11/beego/session"
 	// import mysql driver
 	_ "github.com/go-sql-driver/mysql"
 )

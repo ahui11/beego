@@ -21,8 +21,8 @@
 // Usage:
 // import(
 //
-//	_ "github.com/beego/beego/session/redis"
-//	"github.com/beego/beego/session"
+//	_ "github.com/ahui11/beego/session/redis"
+//	"github.com/ahui11/beego/session"
 //
 // )
 //
@@ -41,7 +41,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/beego/beego/session"
+	"github.com/ahui11/beego/session"
 
 	"github.com/gomodule/redigo/redis"
 )

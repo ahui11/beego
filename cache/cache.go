@@ -17,7 +17,7 @@
 //
 // import(
 //
-//	"github.com/beego/beego/cache"
+//	"github.com/ahui11/beego/cache"
 //
 // )
 //

@@ -21,8 +21,8 @@
 // Usage:
 // import(
 //
-//	_ "github.com/beego/beego/session/redis_cluster"
-//	"github.com/beego/beego/session"
+//	_ "github.com/ahui11/beego/session/redis_cluster"
+//	"github.com/ahui11/beego/session"
 //
 // )
 //
@@ -43,7 +43,7 @@ import (
 
 	rediss "github.com/go-redis/redis"
 
-	"github.com/beego/beego/session"
+	"github.com/ahui11/beego/session"
 )
 
 var redispder = &Provider{}

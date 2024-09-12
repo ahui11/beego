@@ -21,8 +21,8 @@
 // Usage:
 // import(
 //
-//	_ "github.com/beego/beego/session/memcache"
-//	"github.com/beego/beego/session"
+//	_ "github.com/ahui11/beego/session/memcache"
+//	"github.com/ahui11/beego/session"
 //
 // )
 //
@@ -39,7 +39,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/beego/beego/session"
+	"github.com/ahui11/beego/session"
 
 	"github.com/bradfitz/gomemcache/memcache"
 )

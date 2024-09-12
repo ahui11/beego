@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/beego/beego/session"
+	"github.com/ahui11/beego/session"
 )
 
 func TestRedis(t *testing.T) {

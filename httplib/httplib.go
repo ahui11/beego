@@ -15,7 +15,7 @@
 // Package httplib is used as http.Client
 // Usage:
 //
-// import "github.com/beego/beego/httplib"
+// import "github.com/ahui11/beego/httplib"
 //
 //		b := httplib.Post("http://beego.me/")
 //		b.Param("username","astaxie")

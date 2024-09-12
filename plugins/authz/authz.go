@@ -16,8 +16,8 @@
 // Simple Usage:
 //
 //	import(
-//		"github.com/beego/beego"
-//		"github.com/beego/beego/plugins/authz"
+//		"github.com/ahui11/beego"
+//		"github.com/ahui11/beego/plugins/authz"
 //		"github.com/casbin/casbin"
 //	)
 //
@@ -42,8 +42,8 @@ package authz
 import (
 	"net/http"
 
-	"github.com/beego/beego"
-	"github.com/beego/beego/context"
+	"github.com/ahui11/beego"
+	"github.com/ahui11/beego/context"
 	"github.com/casbin/casbin"
 )
 

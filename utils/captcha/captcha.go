@@ -20,9 +20,9 @@
 //
 // import (
 //
-//	"github.com/beego/beego"
-//	"github.com/beego/beego/cache"
-//	"github.com/beego/beego/utils/captcha"
+//	"github.com/ahui11/beego"
+//	"github.com/ahui11/beego/cache"
+//	"github.com/ahui11/beego/utils/captcha"
 //
 // )
 //
@@ -71,11 +71,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/beego/beego"
-	"github.com/beego/beego/cache"
-	"github.com/beego/beego/context"
-	"github.com/beego/beego/logs"
-	"github.com/beego/beego/utils"
+	"github.com/ahui11/beego"
+	"github.com/ahui11/beego/cache"
+	"github.com/ahui11/beego/context"
+	"github.com/ahui11/beego/logs"
+	"github.com/ahui11/beego/utils"
 )
 
 var (

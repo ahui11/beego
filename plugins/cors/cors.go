@@ -16,8 +16,8 @@
 // Usage
 //
 //	import (
-//		"github.com/beego/beego"
-//		"github.com/beego/beego/plugins/cors"
+//		"github.com/ahui11/beego"
+//		"github.com/ahui11/beego/plugins/cors"
 //
 // )
 //
@@ -44,8 +44,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/beego/beego"
-	"github.com/beego/beego/context"
+	"github.com/ahui11/beego"
+	"github.com/ahui11/beego/context"
 )
 
 const (

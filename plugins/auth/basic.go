@@ -16,8 +16,8 @@
 // Simple Usage:
 //
 //	import(
-//		"github.com/beego/beego"
-//		"github.com/beego/beego/plugins/auth"
+//		"github.com/ahui11/beego"
+//		"github.com/ahui11/beego/plugins/auth"
 //	)
 //
 //	func main(){
@@ -40,8 +40,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/beego/beego"
-	"github.com/beego/beego/context"
+	"github.com/ahui11/beego"
+	"github.com/ahui11/beego/context"
 )
 
 var defaultRealm = "Authorization Required"

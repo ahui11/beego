@@ -30,16 +30,16 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/beego/beego/context/param"
-	"github.com/beego/beego/logs"
-	"github.com/beego/beego/utils"
+	"github.com/ahui11/beego/context/param"
+	"github.com/ahui11/beego/logs"
+	"github.com/ahui11/beego/utils"
 )
 
 var globalRouterTemplate = `package {{.routersDir}}
 
 import (
-	"github.com/beego/beego"
-	"github.com/beego/beego/context/param"{{.globalimport}}
+	"github.com/ahui11/beego"
+	"github.com/ahui11/beego/context/param"{{.globalimport}}
 )
 
 func init() {

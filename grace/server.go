@@ -324,7 +324,7 @@ func (srv *Server) fork() (err error) {
 	}
 	args = append(args, "-graceful2")
 	if len(runningServers) > 1 {
-		args = append(args, fmt.Sprintf(`-socketorder=%s`, strings.Join(orderArgs, ",")))
+		args = append(args, fmt.Sprintf(`-socketorder2=%s`, strings.Join(orderArgs, ",")))
 		log.Println(args)
 	}
 	cmd := exec.Command(path, args...)
